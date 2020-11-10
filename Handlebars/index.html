@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  ﻿<title>Handlebars</title>
+﻿</head>
+<body>
+
+   
+    <script id="class-template" type="text/x-handlebars-template">
+        {{#each classmates}}
+          {{#if socialNetwork}}
+          <div>{{name}} - {{ description }}</div>
+          {{/if}}
+        {{/each}}
+    </script>
+    
+    <div class="classroom"></div>
+      <script src="jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
